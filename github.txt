@@ -35,3 +35,12 @@ user.email=347990469@qq.com
 
 git 运程操作
  git clone https://github.com/JackQinzhong/CsVision.git
+
+//给上传到运程仓库增加权限
+[remote "origin"]
+	url = https://github.com/JackQinzhong/CsVision.git
+	//url = https://用户名:密码@github.com/JackQinzhong/CsVision.git   
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
