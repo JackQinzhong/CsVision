@@ -1,0 +1,37 @@
+git config --global user.name 'JackQinzhong'
+git config --global user.email '347990469@qq.com'
+git init
+/生成.git
+
+git add a.h a.cpp
+git status
+git commit  -m 'add a.h a.cpp'
+
+删除
+git rm a.cpp
+
+查看仓库初始化信息
+$ git config --list
+
+core.symlinks=false
+core.autocrlf=true
+core.fscache=true
+color.diff=auto
+color.status=auto
+color.branch=auto
+color.interactive=true
+help.format=html
+rebase.autosquash=true
+http.sslcainfo=C:/Program Files/Git/mingw64/ssl/certs/ca-bundle.crt
+http.sslbackend=openssl
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+credential.helper=manager
+user.name=JackQinzhong
+user.email=347990469@qq.com
+
+git 运程操作
+ git clone https://github.com/JackQinzhong/CsVision.git
